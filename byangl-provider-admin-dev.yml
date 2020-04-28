@@ -7,10 +7,10 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://47.99.247.149:3306/study?autoReconnect=true&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://47.99.247.149:3306/byangl?autoReconnect=true&useUnicode=true&characterEncoding=utf-8
 
 mapper:
-  mappers: org.service.admin.mapper
+  mappers: org.byangl.provider.admin.mapper
   not-empty: false
   identity: MYSQL
 
